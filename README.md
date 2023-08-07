@@ -47,7 +47,7 @@ This application code is to demonstrate LVGL Coffee Machine GUI + NXP VIT on RT1
 “CAPPUCCINO”, “CAFE LATTE”, “CAFE MOCHA”, “START”, “SMALL”, 
 “REGULAR”, “LARGE”, “RETURN”.
 1. Please watch the demo video
-[RT1060-EVK LVGL Coffee Machine with VIT Demo Video](https://bitbucket.sw.nxp.com/projects/NXP-APPCODEHUB/repos/dm-lvgl-vit-rt1060/browse/LVGL%20Coffee%20Machine%20with%20VIT%20demo%20video.MOV)
+[RT1060-EVK LVGL Coffee Machine with VIT Demo Video](https://github.com/nxp-appcodehub/dm-lvgl-vit-rt1060/blob/main/LVGL%20Coffee%20Machine%20with%20VIT%20demo%20video.MOV)
 
 ## 5. FAQs<a name="step5"></a>
 If you have some questions, you can contact FAE or create a ticket to [NXP community](https://community.nxp.com/).
