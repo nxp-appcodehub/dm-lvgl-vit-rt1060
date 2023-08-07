@@ -1,0 +1,152 @@
+Release Name: dm-lvgl-vit-rt1060
+Release Version: 1.0
+Package License: LICENSE - Additional Distribution License granted, license in Section 2.3 applies
+
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: drivers/
+                                     codec/
+                                     touchpanel/
+                                     utilities/
+                                     xip/									 
+                           Origin: NXP (BSD-3-Clause)                                                
+
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: device/
+                                     startup/						   
+                           Origin: NXP (BSD-3-Clause)                                                                                       
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: component/                             
+                           Origin: NXP (BSD-3-Clause)
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0 					   
+
+freertos                   Name: FreeRTOS                                    
+                           Version: 10.4.3_rev1                              
+                           Outgoing License: MIT                             
+                           License File: freertos/LICENSE               
+                           Format: source code                               
+                           Description: IoT operating system for             
+                           microcontrollers                                  
+                           Location: freertos/                         
+                           Origin: Amazon (MIT)          
+                           Url: https://aws.amazon.com/freertos/                                                                                                                                                                                                                                                                                
+
+littlevgl                  Name: LittlevGL                                   
+                           Version: 7.10.1                                    
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           littlevgl/lvgl/LICENSE.txt            
+                           Format: source code                               
+                           Description: littlevgl graphics library           
+                           Location: middleware/littlevgl                    
+                           Origin: Gabor Kiss-Vamosi                         
+                           Url: https://github.com/lvgl/lvgl      
+
+GUI Guider generated       Name: GUI Guider generated files                                    
+                           Version: NA                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt
+                           - Additional distribution license granted
+                           license in Section 2.3 applies                           
+                           License File: LA_OPT_NXP_Software_License.txt                                                
+                           Format: source code                               
+                           Description: GUI Guider generated files          
+                           Location: generated/
+                                     custom/						   
+                           Origin: NXP (Proprietary)
+
+EAP                        Name: Essential Audio Processing (EAP) library 
+                           Version: NA                                       
+                           Outgoing License: LA_OPT_NXP_Software_License.txt
+                           - Additional distribution license granted
+                           license in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt                       
+                           Format: library                               
+                           Description: NXP’s Essential Audio Processing (EAP) library is 
+						   a bundle of audio processing blocks for enhancing the tonal and 
+						   spatial perception of sound in audio applications.    
+                           Location: EAP/                             
+                           Origin: NXP (Proprietary)
+
+VIT                        Name: Voice Intelligent Technology (VIT) library 
+                           Version: NA                                       
+                           Outgoing License: LA_OPT_NXP_Software_License.txt
+                           - Additional distribution license granted
+                           license in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt                       
+                           Format: library                               
+                           Description: VIT library provides voice UI enablement with always-on 
+						   wake word detection and local commands.  
+                           Location: vit/                             
+                           Origin: NXP (Proprietary)
+
+sdmmc                      Name: SD MMC SDIO Card middleware                 
+                           Version: 2.2.7                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: A software component support SD card,
+                           eMMC card, SDIO card.                             
+                           Location: sdmmc                        
+                           Origin: NXP (BSD-3-Clause)                        
+
+fatfs                      Name: FatFs                                       
+                           Version: 0.14a                                    
+                           Outgoing License: FatFs License                   
+                           License File: fatfs/LICENSE.txt        
+                           Format: source code                               
+                           Description: Generic FAT file system for small    
+                           embedded devices.                                 
+                           Location: fatfs                        
+                           Origin: Electronic Lives Mfg. by ChaN of Ageo     
+                           city, Japan (FatFs License)                       
+                           Approved open source license: Yes                 
+                           Url: http://elm-chan.org/fsw/ff/00index_e.html
+						   
+maestro                    Name: Maestro Audio Framework                     
+                           Version: 1.3.0                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license     
+                           granted - License in Section 2.3 applies          
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: Source                                    
+                           Description: Maestro MCU Audio Framework          
+                           Location: middleware/maestro                      
+                           Origin: NXP (Proprietary) Ogg (BSD 3-clause) Opus 
+                           (BSD 3-clause) Opusfile (BSD 3-clause)            
+                           Url: https://github.com/xiph/ogg                  
+                           https://github.com/xiph/opus                      
+                           https://github.com/xiph/opusfile   						   
+
+
