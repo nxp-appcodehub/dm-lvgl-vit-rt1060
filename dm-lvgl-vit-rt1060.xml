@@ -1,6 +1,6 @@
 <data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-lvgl-vit-rt1060" type="demo" format="projectfile" name="lvgl-vit-rt1060">
     <overview>
-        <![CDATA[<h2>i.MX RT1060 LVGL Coffee Machine with VIT demo</h2>This application code is to demonstrate LVGL Coffee Machine GUI + NXP VIT on RT1060-EVK for smart panel demo]]>
+        <![CDATA[This application code is to demonstrate LVGL Coffee Machine GUI + NXP VIT on RT1060-EVK for smart panel demo]]>
     </overview>
     <toolchains>
         <toolchain name="mcux"></toolchain>
