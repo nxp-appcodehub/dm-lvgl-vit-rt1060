@@ -23,8 +23,8 @@ This application code is to demonstrate LVGL Coffee Machine GUI + NXP VIT on RT1
 - MCUXpresso IDE, version is 11.4.0 or later
 
 ## 2. Hardware<a name="step2"></a>
-- MIMXRT1060-EVK REV A board
-- RK043FN02H-CT LCD panel
+- [MIMXRT1060-EVK REV A board](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1060-evaluation-kit:MIMXRT1060-EVKB)
+- [RK043FN02H-CT LCD panel](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/4-3-lcd-panel:RK043FN02H-CT)
 - Micro USB Cable
 - Personal computer
 
